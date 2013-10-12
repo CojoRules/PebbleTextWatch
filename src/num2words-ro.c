@@ -131,11 +131,11 @@ void time_to_3words(int hours, int minutes, char *line1, char *line2, char *line
 	
 	if (memcmp(line1, "unsprezece", 10) == 0) {
 		memset(line1, 0, strlen(line1));
-		memcpy(line1, "unspe", 5);
+		memcpy(line1, "unsprezece", 5);
 	}
 	
 	if (memcmp(line1, "doispre", 7) == 0) {
 		memset(line1, 0, strlen(line1));
-		memcpy(line1, "doispe", 6);
+		memcpy(line1, "doisprezece", 6);
 	}
 }
